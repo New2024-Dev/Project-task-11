@@ -1,0 +1,131 @@
+#alldiv{
+    width: 490px;
+   
+}
+
+#snek{
+    color: hsl(219, 9%, 45%) 
+}
+
+#Fallhead{
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+#pargdetail{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    color: hsl(219, 9%, 45%);
+}
+
+
+
+#current-price{
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+#discount{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#original-price{
+    font-weight: bold;
+    color: hsl(219, 9%, 45%);
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#countcart{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+#minus{
+    background-color: unset;
+    border: none;
+}
+#plus{
+    background-color: unset;
+    border: none;
+}
+
+#quantity-control{
+    background-color: hsl(223, 64%, 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#addcart{
+background-color: hsl(26, 100%, 55%);
+width: 300px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+column-gap: 10px;
+}
+
+#add-to-cart{
+    background-color: unset;
+    border: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+@media only screen and (max-width: 600px){
+    #alldiv{
+        width: 400px;
+    } 
+
+    #price{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #discount{
+        height: 19px;
+    }
+
+    #original-price{
+       margin: 0;
+       flex-grow: 1;
+       text-align: end;
+        
+    }
+
+    #countcart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    #quantity-control{
+        width: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #addcart{
+        width: 400px;
+        height: 80px;
+    }
+    
+}

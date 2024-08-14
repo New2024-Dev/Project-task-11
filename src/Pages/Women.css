@@ -1,0 +1,17 @@
+#womdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 50px;
+    
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    #womdiv{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }  
+}
